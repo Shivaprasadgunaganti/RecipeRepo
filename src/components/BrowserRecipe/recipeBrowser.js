@@ -8,7 +8,7 @@ export const RecipeBrowser = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/recipe" element={<RecipeData />} />
+          <Route path="/" element={<RecipeData />} />
           <Route path="/recipe/:id" element={<RecipeDetails/>}/>
         </Routes>
       </BrowserRouter>
