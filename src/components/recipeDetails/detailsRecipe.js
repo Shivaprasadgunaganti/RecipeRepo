@@ -20,7 +20,7 @@ const RecipeDetails = () => {
 
     return (
         <div className="recipe-details">
-            <NavLink to="/recipe" className="back-link">Back</NavLink>
+            <NavLink to="/" className="back-link">Back</NavLink>
             <div className="recipe-header">
                 <img src={value.image} className="recipe-image" alt={value.name} />
                 <h1 className="recipe-title">{value.name}</h1>

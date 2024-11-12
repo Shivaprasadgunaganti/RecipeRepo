@@ -60,7 +60,7 @@ const RecipeData = () => {
         ))}
       </div>
       <div className="pagination-container">
-        <PaginationLoop totalPosts={filterData.length} postsPerPage={postPerPage} setCurrentPage={setCurrentPage} />
+        <PaginationLoop totalPosts={filterData.length} postsPerPage={postPerPage} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
       </div>
     </div>
   );
