@@ -18,7 +18,7 @@ const RecipeData = () => {
   const fetchData = async () => {
     const response = await axios.get("https://dummyjson.com/recipes");
     // setTimeout(() => {
-    //   setData(response.data.recipes);
+      setData(response.data.recipes);
     // }, 5000);
   };
 
